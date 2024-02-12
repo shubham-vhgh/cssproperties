@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1362372117/photo/scratched-blue-metal-sheet-with-visible-texture-background.jpg?s=612x612&w=0&k=20&c=9y0JUQpomHb3sXysqc-0uMxL2da6Zr_82vrpvp3c40E=");
+    background-size: cover;
+}
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    background-size: auto;
+  }
+  #main {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #main div {
+    flex: 1;
+  }
+  
+  #myBlueDiv {
+    align-self: center;
+  }

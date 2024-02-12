@@ -1,0 +1,79 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+}
+.divtag{
+    border: 2px solid red;
+    margin : 5px 10px 5px 10px;
+}
+.positioncheck1{
+    z-index:2;
+}
+/* .positioncheck1{
+    position: static;
+    top: 100px;
+}
+.positioncheck2{
+    position: relative;
+    top: 100px;
+}
+.positioncheck3{
+    position: absolute;
+    
+}
+.positioncheck4{
+    position: fixed;
+}
+.positioncheck5{
+    position: sticky;
+    top:100px;
+    
+} */
+#aligncenter{
+    align-self: center;
+}
+.container{
+    border: 2px solid #000000;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* margin: 10%; */
+    /* margin top right bottom left  */
+    /* padding: 10%; */
+}
+.b1{
+    border: 2px solid red;
+    /* color:rgba(255, 0, 0, 0); */
+    font-size: 1em;
+    
+}
+.b2{
+    border: 2px solid red;
+    /* font-size: 10vw;  viewport width */
+    /* font-size: 10vh; viewport height */
+    /* color:rgba(255, 0, 0, 0.5); opacity */
+    /* opacity count from 0 to 1 =>0,0.1,0.2,0.3........0.9,1 */
+}
+.b3{
+    border: 2px solid red;
+    /* color:rgba(255, 0, 0, 1); */
+}
+.b4{
+    border: 2px solid red;
+    /* visibility:hidden; */
+}
+.b5{
+    border: 2px solid red;
+}
+.b6{
+    border: 2px solid red;
+}

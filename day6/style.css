@@ -1,0 +1,7 @@
+.ddivtag{
+    background-color: red;
+    transform: skew(1000px);
+}
+img{
+    transform: translate(120px, 50%);
+}

@@ -1,0 +1,11 @@
+img{
+    background-size: cover;
+    width: 100%;
+}
+H1{
+    text-align: center;
+    z-index: 2;
+}
+.servicenames{
+    display: inline-block;
+}
